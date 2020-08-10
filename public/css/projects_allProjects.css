@@ -1,0 +1,85 @@
+#main_div {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
+#admin_side_nav {
+	background: #8395a7;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+#admin_side_nav ul {
+	display: grid;
+	position: fixed;
+	width: 15%;
+	height: 400px;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-items: center;
+	list-style-type: none;
+}
+#admin_side_nav ul li {
+	margin: 0 auto;
+}
+#admin_side_nav ul li a {
+	text-decoration: none;
+	font-family: Century Gothic;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color 2s ease;
+	transition: font-size 0.5s ease;
+	background-color: none;
+	color: white;
+}
+#admin_side_nav ul li a:hover {
+	font-size: 25px;
+	background-color: #73a9ff;
+	padding: 5px;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#project_table caption {
+	margin: 10px 0;
+	font-size: 25px;
+	font-family: Garamond;
+}
+#project_table {
+	width: 90%;
+	margin: 20px auto;
+	text-align: center;
+	border-collapse: collapse;
+	background: #E6CCBE;
+}
+#project_table tr th {
+	padding: 20px 0;
+	background: #5a5353;
+	color: white;
+}
+#project_table tr:nth-child(odd){
+	background: snow;
+}
+#project_table td {
+	width: 20%;
+	padding: 10px;
+	font-size: 17px;
+}
+#no_data_message_row td {
+	background: repeating-linear-gradient( 45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+	color: white;
+}
+.project_table_button {
+	width: 100%;
+	padding: 10px 20px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.edit_button {
+	background: #ffeaa7;
+}
+.delete_button {
+	background: #ff7675;
+}

@@ -1,0 +1,57 @@
+main {
+	background-image: url('../images/backgrounds/bg_home.png');
+	background-size: scroll;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 100%;
+}
+#welcome_div {
+	position: relative;
+	top: 40px;
+	left: 10%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2d3436;
+	margin-bottom: 60px;
+}
+#intro {
+	display: block;
+	font-size: 2em;
+	font-family: Palatino, Helvetica;
+	margin-bottom: 5px;
+}
+#welcome_div p {
+	line-height: 1.5em;
+	font-size: larger;
+	font-family: Garamond, Helvetica;
+}
+#welcome_robot {
+	color: #f5fffa;
+	font-weight: normal;
+	font-family: Courier, Helvetica;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 5px;
+	border-radius: 50%;
+	background: #73a9ff;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	width: 230px;
+	height: 230px;
+	border: 5px solid white;
+}
+@media screen and (max-width: 587px) {
+    #intro {
+    	font-size: 25pt;
+    }
+    #welcome_div p {
+    	font-size: 15pt;
+    	color: black;
+    	font-weight: bold;
+    	
+    }
+
+    
+}

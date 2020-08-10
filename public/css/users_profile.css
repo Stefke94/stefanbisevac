@@ -1,0 +1,46 @@
+#main_div {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
+#admin_side_nav {
+	background: #8395a7;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+#admin_side_nav ul {
+	display: grid;
+	position: fixed;
+	width: 15%;
+	height: 400px;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-items: center;
+	list-style-type: none;
+}
+#admin_side_nav ul li {
+	margin: 0 auto;
+}
+#admin_side_nav ul li a {
+	text-decoration: none;
+	font-family: Century Gothic;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color 2s ease;
+	transition: font-size 0.5s ease;
+	background-color: none;
+	color: white;
+}
+#admin_side_nav ul li a:hover {
+	font-size: 25px;
+	background-color: #73a9ff;
+	padding: 5px;
+}
+main {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+main h1 {
+	font-weight: 300;
+}

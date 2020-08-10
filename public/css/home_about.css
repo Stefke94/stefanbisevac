@@ -1,0 +1,138 @@
+#details_section {
+	box-shadow: 10px 10px 10px #636e72;
+	background: #73a9ff;
+	margin: 30px 20px;
+	padding: 20px;
+	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 20px;
+}
+.headings_section {
+	background: #fdcb6e;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+.headings_section > * {
+	margin: 5px;
+}
+.headings_section img {
+	vertical-align: bottom;
+}
+.headings {
+	font-family: Garamond;
+	text-align: center;
+	display: inline-block;
+}
+#basic_info {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	justify-items: center;
+	align-items: center;
+}
+#img_section figure {
+	background: white;
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+}
+#img_section figcaption {
+	padding: 15px;
+}
+#info_article > * {
+	padding: 10px;
+}
+#info_article {
+	text-align: center;
+	font-size: large;
+}
+#info_article h1 {
+	font-size: 25pt;
+}
+#info_article ul {
+	list-style: none;
+}
+#info_article li {
+	margin: 10px 0;
+}
+#skills_section {
+	margin: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	grid-gap: 70px 50px;
+}
+.skills_language_article {
+	background: #ffeaa7;
+	border-radius: 30px;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	border: 10px solid white;
+}
+.skills_language_article p {
+	text-align: center;
+	margin: 15px 0;
+}
+.skills_language_article progress {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#education_table_section {
+	margin: 50px 0;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+#education_table_section table {
+	border-collapse: collapse;
+}
+#education_table_section table caption {
+	margin-bottom: 15px;
+	font-size: large;
+}
+#education_table_section table th, #education_table_section table td {
+	text-align: center;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+#education_table_section table tbody tr:nth-child(odd) {
+	background: #ffeaa7;
+}
+#education_table_section table tbody tr:nth-child(even) {
+	background: #fdcb6e;
+}
+#about_section {
+	border-radius: 20px;
+	background: #ffeaa7;
+	padding: 10px;
+	margin: 20px;
+}
+.about_p {
+	margin: 10px auto;
+	line-height: 1.4em;
+}
+.about_p span {
+	text-transform: uppercase;
+	font-size: xx-
+}
+@media screen and (max-width: 1125px) {
+	#skills_section {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media screen and (max-width: 745px) {
+	#skills_section {
+		grid-template-columns: 1fr;
+	}
+}
+@media screen and (max-width: 587px) {
+	#basic_info {
+		grid-template-columns: 1fr;
+	}
+}

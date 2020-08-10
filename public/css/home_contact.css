@@ -1,0 +1,39 @@
+main {
+	background-image: url('../images/backgrounds/bg_contact.png');
+	background-attachment: scroll;
+	background-position: center center;
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 0 0 20px 0;
+}
+#contact_details {
+	padding: 0 30px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 20px;
+	color: #dfe6e9;
+	font-weight: 550;
+}
+.single_contact_article p {
+	display: inline-block;
+	font-family: arial;
+	margin: 0 10px;
+	padding: 2px;
+	font-family: Arial;
+	background: #0984e3;
+}
+.single_contact_article a {
+	text-decoration: none;
+	font-family: Arial;
+	color: #dfe6e9;
+}
+.single_contact_article a img {
+	vertical-align: middle;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.single_contact_article a img:hover {
+	transform: rotate(-15deg);
+}

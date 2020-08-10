@@ -1,0 +1,26 @@
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#main_heading_section  h1 {
+	text-align: center;
+	font-size: 40pt;
+	margin: 10px 0;
+}
+#error_message_section p {
+	margin: 30px auto;
+	text-align: center;
+}
+#homepage_button {
+	border: 1px strapped black;
+	text-decoration: none;
+	padding: 10px;
+	background: #73a9ff;
+	color: white;
+	border-radius: 5px;
+}
+#homepage_button:hover {
+	background: #74b9ff;
+}

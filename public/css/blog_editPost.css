@@ -1,0 +1,90 @@
+#main_div {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
+#admin_side_nav {
+	background: #8395a7;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+#admin_side_nav ul {
+	display: grid;
+	position: fixed;
+	width: 15%;
+	height: 400px;
+	grid-template-columns: 1fr;
+	align-items: center;
+	justify-items: center;
+	list-style-type: none;
+}
+#admin_side_nav ul li {
+	margin: 0 auto;
+}
+#admin_side_nav ul li a {
+	text-decoration: none;
+	font-family: Century Gothic;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color 2s ease;
+	transition: font-size 0.5s ease;
+	background-color: none;
+	color: white;
+}
+#admin_side_nav ul li a:hover {
+	font-size: 25px;
+	background-color: #73a9ff;
+	padding: 5px;
+}
+main {
+	padding: 20px 0;
+}
+main form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 10px;
+	justify-items: center;
+}
+main form h2 {
+	font-family: Garamond;
+	font-size: 25px;
+}
+.form_divs {
+	width: 90%;
+	padding: 20px;
+}
+.form_divs label {
+	display: block;
+	margin: 0 0 5px 0;
+	padding: 0 3px;
+}
+.form_divs input[type=text] {
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 10px;
+}
+.form_divs textarea {
+	width: 100%;
+	height: 300px;
+	font-size: 12px;
+	padding: 10px;
+	resize: none;
+}
+#edit_button_div {
+	padding: 20px;
+	margin-bottom: 20px;
+	min-width: 300px;
+}
+#edit_button_div button {
+	width: 100%;
+	height: 40px;
+	font-size: 12px;
+}
+.error_message {
+	text-align: center;
+	padding: 10px;
+	margin: 10px 0;
+	background: #ff7675;
+}

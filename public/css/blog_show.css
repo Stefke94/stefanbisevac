@@ -1,0 +1,44 @@
+#main_div {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+	padding-bottom: 20px;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#post_section {
+	padding: 20px 30px;
+	margin: 20px 30px;
+	box-shadow: 10px 10px 30px #636e72;
+	background: #ffeaa7;
+	font-family: Georgia;
+}
+.headings {
+	text-align: center;
+	line-height: 1.5em;
+}
+#post_section article h4 {
+	font-weight: 100;
+}
+.body_text {
+	margin-top: 10px;
+	font-size: 17px;
+	line-height: 1.5em;
+	text-align: justify;
+	white-space: pre-line;
+}
+#post_section_controlls {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#post_section_controlls button {
+	padding: 20px 40px;
+}

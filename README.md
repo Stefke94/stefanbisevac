@@ -69,7 +69,18 @@ Lets say URL is
 	stefanbisevac/blog/showPost/25
 
 Out app, see that **blog** controller is called with its method **showPost** and argument is passed, that is **25** .
+
 So Blog controller starts checking stuff with Model whether that blog post exists, takes data and then it takes View, loads it and passes data that it got from Model and *voila*, you get to see that blog post that you wanted!
+
+File
+
+	index.php
+in public folder is main file, that is, its the file where everything happens. That file includes:
+
+	bootstrap.php
+this is a file that inlcudes other files that are needed for work (config file, helper file and all Core classes) and it instantiates Core class .
+
+Core class is class that take URL and part it up like I explained up above.
 
 I tried to keep my code readable, clean, concise, well formatted, optimized.
 Hope I explained you all of this in a way that you understand.
